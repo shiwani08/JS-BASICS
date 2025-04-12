@@ -13,6 +13,7 @@
 - Always use const if the type should not be changed (Arrays and Objects).
 - Only use let if you can't use const
 - Only use var if you MUST support old browsers.
+- **PARAMETER** is the one present in the function declaration and **ARGUMENT** is the value which is passed while calling the function.
 ## PRIMITIVE DATATYPES: 
   - strings
   - boolean
