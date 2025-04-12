@@ -5,7 +5,7 @@
 # CSS
 
 # JS
-<!-- Read all the comments in learning.js to revise the basics-->
+- Read all the comments in learning.js to revise the basics 
 - JS is a dynamically typed language - means that we dont have to specify the data type.
 - run - {node script.js} to run the js code outside of the browser.. this basically shows the output of the console
 - node uses chrome's v8 engine to render js code
