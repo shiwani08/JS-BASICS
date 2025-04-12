@@ -1,1 +1,3 @@
-console.log ('Hello world from js!!');
+let fname = "shiwani";
+fname = "soni";
+console.log (fname);
