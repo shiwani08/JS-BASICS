@@ -1,43 +1,90 @@
 body {
-      padding: 1%;
-      margin: 1%;
+      padding: 2%;
+      margin: 0;
       background-color: cadetblue;
-      justify-content: center;
       display: flex;
-      /* flex-direction places all the elements in the form of a column */
-      flex-direction: column; 
+      flex-direction: column;
       align-items: center;
-}
-
-h1 {
-      font-size: 2.5rem;
-      color: beige
-}
-
-.section {
+      justify-content: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
       text-align: center;
-}
-
-.button {
-      font-size: 5rem;
+  }
+  
+  h1 {
+      font-size: 2.5rem;
+      color: beige;
+      margin-bottom: 1rem;
+  }
+  
+  .section {
+      width: 90%;
+      max-width: 600px;
+      margin: auto;
+  }
+  
+  .button {
+      font-size: 3rem;
       border: none;
-      border-radius: 10.5px;
+      border-radius: 10px;
       color: rgb(73, 73, 206);
       background-color: burlywood;
       filter: grayscale();
-      padding: 10px;
-      margin-top: 30px;
-      margin-bottom: 20px;
+      padding: 1rem 2rem;
+      margin: 2rem 0 1rem;
       cursor: pointer;
-      transition: filter .2s ease-in-out;
-}
-
-.button:hover {
+      transition: filter 0.2s ease-in-out;
+      width: 100%;
+      max-width: 400px;
+  }
+  
+  .button:hover {
       filter: grayscale(0);
-}
-
-.emoji-name {
-      font-weight: 600 px;
+  }
+  
+  .emoji-name {
+      font-weight: 600;
       color: rgb(216, 231, 161);
       font-size: 1.25rem;
-}
+      margin: 1rem;
+      padding: 1rem;
+  }
+  
+  .footer {
+      margin-top: auto;
+      padding: 3.5rem;
+      color: white;
+      font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+      h1 {
+          font-size: 2rem;
+      }
+  
+      .button {
+          font-size: 2rem;
+          padding: 0.75rem 1.5rem;
+      }
+  
+      .emoji-name {
+          font-size: 1rem;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      h1 {
+          font-size: 1.75rem;
+      }
+  
+      .button {
+          font-size: 1.5rem;
+          padding: 0.5rem 1rem;
+      }
+  
+      .emoji-name {
+          font-size: 0.9rem;
+      }
+  }
+  
