@@ -37,4 +37,3 @@
   - - map.set('key', 'value')
   - - map.size
   - - map.has('apple')
-  - - 
