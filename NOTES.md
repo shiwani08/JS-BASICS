@@ -32,3 +32,9 @@
  - Array and list are same in js. The offical term being array. 
  - These have in-built functions like .push(), .pop(), .map()
  - Length of the array is dynamic
+ - Map common functions (ref to https://www.w3schools.com/js/js_map_methods.asp for more) - 
+  - - map.get('apple')
+  - - map.set('key', 'value')
+  - - map.size
+  - - map.has('apple')
+  - - 

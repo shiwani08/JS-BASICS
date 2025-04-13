@@ -36,3 +36,15 @@ let colors = ['red', 'blue', 32]
 colors[6] = 'purple'
 console.log(colors) // output : [ 'red', 'blue', 32, <3 empty items>, 'purple' ]
 console.log(typeof(colors))
+
+let fruits = new Map();
+
+fruits.set('apples', 200)
+fruits.set('banana', 100)
+fruits.set('oranges', 220)
+
+console.log(fruits);
+console.log(typeof(fruits));
+
+console.log(fruits.get('apples')) // returns the value of apples
+console.log(fruits.size);
