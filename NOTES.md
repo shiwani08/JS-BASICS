@@ -26,7 +26,17 @@
   - objects
   - array
   - fucntion
+  #### There is a difference in the ref. data type in Java and js. Refer hoisting.js for example
  ### FUN FACT - 'name' is a predefined global property. Hence it is best to avoid using this as a variable name
+
+## LOOPS:
+
+JavaScript supports different kinds of loops:
+- for - loops through a block of code a number of times
+- for/in - loops through the properties of an object
+- for/of - loops through the values of an iterable object
+- while - loops through a block of code while a specified condition is true
+- do/while - also loops through a block of code while a specified condition is true
 
 ## DSA CORNER
  - Array and list are same in js. The offical term being array. 

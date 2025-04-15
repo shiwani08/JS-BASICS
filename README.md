@@ -2,7 +2,8 @@
 Here are the resources I'm currently using to learn JavaScript:
 
 - Programming with Mosh (YouTube)
-- W3Schools JavaScript Tutorial
+- W3Schools JavaScript Tutorial - https://www.w3schools.com/js/
+- JS advanced concepts - https://youtu.be/EgDmCbhmstU?si=ktpjGXs0GC3hQMg7
 
 ## 🎯 Project: Random Emoji Generator
 As part of my learning, I’ve built a simple Random Emoji Generator project using JavaScript.
